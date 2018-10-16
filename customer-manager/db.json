@@ -1,6 +1,7 @@
 {
   "customers": [
     {
+      "name": "Albret Feinstein",
       "username": "Bret",
       "email": "Sincere@april.biz",
       "phone": "1-770-736-8031 x56442",
@@ -220,18 +221,6 @@
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       }
-    },
-    {
-      "username": "myname",
-      "email": "obinnawalker@yahoo.com",
-      "phone": "7407004493",
-      "website": "www.mmemmme.com",
-      "address": {
-        "suite": "118 ",
-        "street": "Imperial Drive",
-        "city": "Harrow"
-      },
-      "id": 11
     }
   ]
 }

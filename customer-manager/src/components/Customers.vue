@@ -60,10 +60,9 @@ export default {
       })
     },
     filterBy(list, value){
-      let count=0
-      value = value.charAt(0).toUpperCase() + value.slice(1)
       return list.filter(function(customer){
-        if (value && customer.username.indexOf(value) < 0){
+        if (value && customer.username.toLowerCase()
+          .indexOf(value.toLowerCase()) == -1){
           return
         }
         return customer.username
